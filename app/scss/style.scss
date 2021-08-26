@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+    background-color: #000;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1600px;
+    margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header_backgroundImg {
+    background-image: url(../images/header.svg);
+    height: 414px;
+    background-repeat: no-repeat;
+	background-position: center;
+
+    &-myself {
+        display: inline-flex;
+        position: relative;
+        bottom: -60%;
+        left: 15%;
+
+    }
+
+    &-myself h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 75px;
+        line-height: 91px;
+        color: #fff;
+    }
+}
+
+.about_myself-photo{
+    background-image: url(../images/picter.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 306px;
+}
