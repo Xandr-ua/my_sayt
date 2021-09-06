@@ -12,8 +12,15 @@ img{
 	box-sizing: border-box;
 }
 
-.conteiner {
+.conteiner1 {
     max-width: 1600px;
+    margin: 0 auto;
+	
+}
+
+.conteiner {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1160px;
     margin: 0 auto;
 	padding: 0 20px;
 }
@@ -28,7 +35,7 @@ img{
         display: inline-flex;
         position: relative;
         bottom: -60%;
-        left: 15%;
+        left: 10%;
 
     }
 
@@ -42,9 +49,86 @@ img{
     }
 }
 
-.about_myself-photo{
-    background-image: url(../images/picter.png);
-    background-repeat: no-repeat;
-    width: 306px;
-    height: 306px;
+.about_myself-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+
+    &-photo {
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    &-text-resume {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: px;
+        width: 50%;
+        color: #fff;
+    }
+}
+
+.specialization{
+    color: #fff;
+    margin-top: 120px;
+
+    & h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        margin-bottom: 90px;
+    }
+}
+
+.specialization_them{
+    margin-left: 60px;
+
+    &-list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #fff;
+    }
+
+    &-list:last-child{
+        border-bottom: none;
+    }
+
+    &-list-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        width: 10%;
+    }
+
+    &-list-img img{
+        
+        text-align: center;
+    }
+
+    &-list-text{
+        width: 60%;
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+
+    &-list-text h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    &-list-text p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+    }
+}
+
+.porfolio_text{
+    color: #fff;
 }
